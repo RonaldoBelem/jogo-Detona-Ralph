@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{font-family:cursive ; }
+/*.geral{
+    
+  
+}*/
+.contain{
+    background-color: black;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    border-bottom: 5px solid gold;
+
+}
+.inf{
+    margin: 0 50px;
+    
+}
+
+.menu-Time,.menu-Score,.menu-lives{
+    display: flex ;
+    text-align: center;
+    margin: 0 50px;
+    flex-direction: column;
+}
+.fundo{
+    
+    background-image: url(../images/wall.png); 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.inimigo{
+    background: url(../images/ralph.png);
+    background-size: cover;
+    background-color: rgb(255, 99, 99);
+    height: 170px;
+    width: 170px;
+    display: flex; 
+    
+}
+.quadrado{
+    height: 170px;
+    width: 170px;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;  
+    
+}
+#reiniciar{
+font-size: 20px;
+font-weight: bolder;
+padding: 5px;
+border-radius: 10px;
+}
